@@ -30,3 +30,62 @@ Use common HTML tags like h1, p, a, img, and ul or ol.
 Structure a webpage with semantic tags such as header, footer, nav, section, and article.
 Ensure the content is well-organized for readability and SEO.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage showcasing HTML structure with text, images, and links.">
+    <title>My Simple Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the home section of my simple webpage. You can navigate through different sections using the links in the header.</p>
+            <img src="https://via.placeholder.com/400" alt="Placeholder Image" />
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <article>
+                <h3>Who Am I?</h3>
+                <p>I am a web developer passionate about creating user-friendly websites. I enjoy learning new technologies and improving my skills every day.</p>
+                <a href="https://github.com/your-profile" target="_blank">Visit my GitHub Profile</a>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you'd like to get in touch, feel free to send me a message or visit my social media profiles.</p>
+            <ul>
+                <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:your-email@example.com">Email</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Simple Webpage. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
